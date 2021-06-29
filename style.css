@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+}
+.fav-icon{
+    margin: 0px;
+    background-color: #000;
+    height: 4rem;
+    box-sizing: border-box;
+}
+.fav-icon{
+    font-size: 2rem;
+    color: rgb(170, 219, 250);
+    padding:10px;
+}
+.fav-icon i{
+    padding: 0px 20px;
+}
+.contact{
+    display: flex;
+    padding-right:5rem;
+    float: right;
+
+}
+.main-nav{
+    background-color: lightslategray;
+    height: 5rem;
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+.header{
+    font-size:5rem;
+    background-color: #eb3b24;
+    font-family: sans-serif;
+    height: 5rem;
+    margin-left: 10rem;
+    width: 5rem;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+
+}
+ul{
+    margin-left: 50rem;
+
+}
+li{
+    font-size: 2rem;
+    font-family: sans-serif;
+
+}
+ul li{
+    list-style-type: none;
+    padding: 20px;
+    
+}
+li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+.bg{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    
+}
+.section2 h2,p,i{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.section2 h2{
+    position: absolute;
+    top: 40rem;
+    left: 10rem;
+    font-size: 1.5rem;
+    color:white;
+}
+.section2 p{
+    position: absolute;
+    top:42rem;
+    font-size: 2rem;
+    left: 10rem;
+}
+.more-details{
+    display: flex;
+    color: #fff;
+    position: absolute;
+    top: 64rem;
+    left: 20rem;
+    background-color: lightskyblue;
+    height: 35px;
+    padding: 20px;
+    width: 70rem;
+    justify-content: space-evenly;
+}
+.more-details i{
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+.main-section{
+    height: 40rem;
+    background-color: slategray;
+}
+.section-displine{
+    display: flex;
+    padding: 4rem
+;
+}
+.section-spiritual{
+    display: flex;
+}
+.sec{
+    margin-left: 20rem;
+}
+.icons i{
+    color: green;
+}

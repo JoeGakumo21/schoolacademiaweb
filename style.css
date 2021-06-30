@@ -254,7 +254,10 @@ padding-bottom: 20px;
 .footer-part span{
     position: absolute;
     left: 92rem;
-    top: 141rem;
+    top: 142rem;
+}
+.footer-part i{
+    padding: 20px;
 }
 
 /* responsive to devices */
@@ -333,5 +336,10 @@ padding-bottom: 20px;
  }
  .passage{
      font-size: 20px;
+ }
+ .footer-part span{
+     position:absolute;
+    left: 32em;
+    top: 126.5em;
  }
 }

@@ -246,5 +246,15 @@ color: #fff;
 opacity: 2;
 padding-bottom: 20px;
 }
-
+.copyright{
+    background-color: rgba(226, 193, 150,.7);
+    height: 1.5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font: small-caption;
+    padding: auto;
+}
+.copyright span{
+    color: darkgreen;
+}
 

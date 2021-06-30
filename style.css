@@ -251,6 +251,11 @@ padding-bottom: 20px;
 .copyright span{
     color: darkgreen;
 }
+.footer-part span{
+    position: absolute;
+    left: 92rem;
+    top: 141rem;
+}
 
 /* responsive to devices */
 @media screen and (max-width:850px){
@@ -321,6 +326,12 @@ padding-bottom: 20px;
      font-size: 15px;
  }
  .section2-displine h1{
+     font-size: 20px;
+ }
+ .another-section{
+     height: auto;
+ }
+ .passage{
      font-size: 20px;
  }
 }

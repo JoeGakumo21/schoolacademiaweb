@@ -107,7 +107,6 @@ li a{
 /* section main */
 .main-section{
     height: 30rem;
-    background-color: slategray;
     flex-direction: column;
     justify-content:space-evenly;
     position: relative;
@@ -188,6 +187,36 @@ a:hover{
     background-repeat: no-repeat;
     background-image: url("assets/another.jpg");
     height: 40rem;
+}
+.another-section h2{
+    color: rgb(31, 153, 15);
+    align-items: center;
+    text-align: center;
+    padding: auto;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+}
+.another{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    flex: 2;
+    padding-top: 3rem;
+    color: rgb(241, 249, 250);
+    opacity: 2;
+}
+.passage p{
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 0px 5rem;
+    font-size: x-large;
+    flex:2;
+}
+.passage h1{
+    font-size: xx-large;
+    color: #eb3b24;
+    padding-bottom: 20px;
 }
 
 

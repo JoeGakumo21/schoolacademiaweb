@@ -68,17 +68,13 @@ li a{
     position: relative;
     
 }
-.section2 h2{
-    color: #000;
-    font-size: 1.5px;
-    font-family: sans-serif;
-}
+
 .section2 h2{
     position: absolute;
     top: 40rem;
     left: 10rem;
     font-size: 2.5rem;
-    color:#537e05;
+    color:#fff;
 }
 .section2 p{
     position: absolute;
@@ -173,7 +169,7 @@ a{
     color: black;
 }
 a:hover{
-    color: #cddead;
+    color: #8d3737;
     cursor: pointer;
 }
 .section2-displine{
@@ -185,7 +181,7 @@ a:hover{
 .another-section{
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("assets/another.jpg");
+    background-image: url("assets/swings.jpeg");
     height: 40rem;
 }
 .another-section h2{

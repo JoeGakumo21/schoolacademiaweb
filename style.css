@@ -14,6 +14,7 @@
 }
 .fav-icon i{
     padding: 0px 20px;
+
 }
 .contact{
     display: flex;
@@ -50,6 +51,7 @@ li{
     font-family: sans-serif;
 
 }
+
 ul li{
     list-style-type: none;
     padding: 20px;
@@ -61,22 +63,22 @@ li a{
     color: #fff;
 }
 .bg{
-    height: 900px;
+    height: 800px;
     width: 100%;
     position: relative;
     
 }
-.section2 h2,p,i{
-    color: #fff;
-    font-size: 20px;
+.section2 h2{
+    color: #000;
+    font-size: 1.5px;
     font-family: sans-serif;
 }
 .section2 h2{
     position: absolute;
     top: 40rem;
     left: 10rem;
-    font-size: 1.5rem;
-    color:white;
+    font-size: 2.5rem;
+    color:#537e05;
 }
 .section2 p{
     position: absolute;
@@ -88,7 +90,7 @@ li a{
     display: flex;
     color: #fff;
     position: absolute;
-    top: 64rem;
+    top: 58rem;
     left: 20rem;
     background-color: lightskyblue;
     height: 35px;
@@ -102,21 +104,91 @@ li a{
     font-family: sans-serif;
     font-size: 2rem;
 }
+/* section main */
 .main-section{
-    height: 40rem;
+    height: 30rem;
     background-color: slategray;
+    flex-direction: column;
+    justify-content:space-evenly;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 1rem;
+    
+   
 }
 .section-displine{
     display: flex;
-    padding: 4rem
-;
+    padding-top: 5rem;
+    flex-grow: 2;
+    justify-content: space-evenly;
+    padding-bottom: 8rem;
+  
 }
-.section-spiritual{
+.section-displine i{
+    color: black;
+}
+.sec1 i{
+    font-size: 5rem;
+    position: absolute;
+    left: 48rem;
+    top: 4rem;
+}
+.sec2 i{
+    font-size: 5rem;
+    position: absolute;
+    left: 79rem;
+    top: 4rem;
+}
+.sec3 i{
+    font-size: 5rem;
+    position: absolute;
+    left: 15rem;
+    top: 4rem;
+}
+.sec4 i{
+    font-size: 5rem;
+    position: absolute;
+    left: 14rem;
+    top: 16rem;
+}
+.sec5 i{
+    font-size: 5rem;
+    position: absolute;
+    left: 48.5rem;
+    top: 17rem;
+}
+.sec6 i{
+    font-size: 5rem;
+    position: absolute;
+    left: 79rem;
+    top: 17rem;
+}
+.section-displine a{
+    text-decoration: none;
+}
+.section2-displine a{
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: #cddead;
+    cursor: pointer;
+}
+.section2-displine{
     display: flex;
+    flex-grow: 2;
+    justify-content: space-evenly;
 }
-.sec{
-    margin-left: 20rem;
+/* end  */
+.another-section{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("assets/another.jpg");
+    height: 40rem;
 }
-.icons i{
-    color: green;
-}
+
+
+

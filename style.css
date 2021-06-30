@@ -6,8 +6,6 @@
     background-color: #000;
     height: 4rem;
     box-sizing: border-box;
-}
-.fav-icon{
     font-size: 2rem;
     color: rgb(170, 219, 250);
     padding:10px;
@@ -254,3 +252,75 @@ padding-bottom: 20px;
     color: darkgreen;
 }
 
+/* responsive to devices */
+@media screen and (max-width:850px){
+  .fav-icon{
+      font-size: 2rem;
+      display: flex;
+      width: auto;
+  }
+ ul{
+     margin-left: 1rem;
+ }
+ .header{
+     margin-left: 3rem;
+ }
+ .more-details{
+     width: 800px;
+     display: flex;
+     left: 2px;
+ }
+ .more-details i{
+     font-size: 1.5rem;
+     bottom: 20px;
+ }
+ /* icons styling */
+ .sec1 i{
+    position: absolute;
+    left: 4rem;
+    font-size: 2rem;
+    top: 6rem;
+ }
+ .sec2 i{
+    position: absolute;
+    left: 19rem;
+    font-size: 2rem;
+    top: 6rem;
+ }
+ .sec3 i{
+    position: absolute;
+    left: 34rem;
+    font-size: 2rem;
+    top: 6rem;
+ }
+ .sec4 i{
+    position: absolute;
+    left: 3.5rem;
+    font-size: 2rem;
+    top: 17rem;
+ }
+ .sec5 i{
+    position: absolute;
+    left: 20rem;
+    font-size: 2rem;
+    top: 18rem;
+ }
+ .sec6 i{
+    position: absolute;
+    left: 35.5rem;
+    font-size: 2rem;
+    top: 18rem;
+ }
+ .section-displine p{
+     font-size: 15px;
+ }
+ .section-displine h1{
+     font-size: 20px;
+ }
+ .section2-displine p{
+     font-size: 15px;
+ }
+ .section2-displine h1{
+     font-size: 20px;
+ }
+}
